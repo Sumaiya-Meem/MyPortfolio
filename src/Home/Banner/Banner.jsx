@@ -2,6 +2,12 @@ import { IoMdCloudDownload } from "react-icons/io";
 import { Button, Card } from 'flowbite-react';
 import resume from "../../../public/Sumaiya Habib Meem-2.pdf"
 const Banner = () => {
+    const handleDownloadCV = () => {
+        const anchor = document.createElement('a');
+        anchor.href = resume; 
+        anchor.download = 'Sumaiya Habib Meem-2.pdf'; 
+        anchor.click(); 
+    };
     return (
         <div className='w-[80%] mx-auto min-h-screen'>
             <h3 className='text-[#c9f31d] text-2xl mt-16'>Hello! I am</h3>
@@ -19,7 +25,10 @@ const Banner = () => {
            <a href="#about">
             <Button className='bg-[#95ac3a]  text-lg'>About Me</Button>
            </a>
-         <Button className=" bg-[#95ac3a] "><IoMdCloudDownload className="mr-2"/><span className="text-[16px]">Download CV</span></Button>
+           <Button className="bg-[#95ac3a]" onClick={handleDownloadCV}>
+                    <IoMdCloudDownload className="mr-2" />
+                    <span className="text-[16px]">Download CV</span>
+            </Button>
        
            </div>
         </div>

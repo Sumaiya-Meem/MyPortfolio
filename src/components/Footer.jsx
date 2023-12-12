@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footers = () => {
     return (
         <div>
-            <Footer container className='bg-[#0c3866] mt-6'>
+            <Footer container className='bg-[#0c3866] border-y-2 border-[#3a71ac] mt-6'>
 
                 <div className="w-full sm:flex sm:items-center sm:justify-between">
                     <Footer.Copyright href="#" by="Meem™" year={2023} className='text-white' />
