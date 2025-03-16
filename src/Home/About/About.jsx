@@ -2,7 +2,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import Img from "../../../public/MyProfile.jpeg"
-import { Button } from "flowbite-react";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -18,8 +17,8 @@ const About = () => {
           className="flex-1 mt-10"
         >
                   <p className="px-2 text-white text-lg">
-                  Hello, I'm Sumaiya Meem, a Font End developer specializing in web application development. My experience extends to developing dynamic applications within the React Js.
-                  I like keeping up with new and developing technologies and am open to exploring job opportunities that align with my skill set.
+                  Hello, I'm Sumaiya Meem, a Full Stack Web Developer specializing in web application development. My experience extends to developing dynamic applications within the React Js, Node Js and MongoDB.
+                  I like keeping up with new and developing technologies and open to exploring job opportunities that align with my skill set.
                   I am good at problem solving.
                   </p>
 

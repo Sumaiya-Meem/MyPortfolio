@@ -4,8 +4,8 @@ import { Avatar, Dropdown, Navbar } from 'flowbite-react';
 
 const Header = () => {
     return (
-        <div className='mt-2'>
-    <Navbar fluid rounded className='bg-[#0c3866] shadow-xl uppercase '>
+        <div className=''>
+    <Navbar  className='bg-[#0c3866] shadow-xl uppercase'>
       <div className="">
         <Dropdown
           arrowIcon={false}

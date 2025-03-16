@@ -1,7 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import ProgressBar from '@ramonak/react-progress-bar';
-import { color } from 'framer-motion';
 import { Button } from 'flowbite-react';
 
 const Skill = () => {
@@ -21,9 +20,6 @@ const Skill = () => {
                         <Tab className="w-32 ">
                         <Button className="text-[#c3e248] " color="">Programming</Button>
                        </Tab>
-                        <Tab className="w-20">
-                        <Button className="text-[#c3e248] " color="">Others</Button>
-                             </Tab>
                     </TabList>
 
                     <TabPanel>
@@ -33,7 +29,7 @@ const Skill = () => {
                                 <div className='w-80 md:w-340px lg:w-96'>
                                     <p className='text-white'>React</p>
                                     <ProgressBar
-                                        completed={70}
+                                        completed={50}
                                         bgColor='#95ac3a'
                                         animateOnRender={true}
                                         height='15px'
@@ -43,7 +39,7 @@ const Skill = () => {
                                 <p className='text-white'>Node</p>
                                 <div className='w-80 md:w-340px lg:w-96'>
                                     <ProgressBar
-                                        completed={45}
+                                        completed={30}
                                         bgColor='#00a8e0'
                                         animateOnRender={true}
                                         height='15px'
@@ -53,20 +49,10 @@ const Skill = () => {
                                 <p className='text-white'>Javascript</p>
                                 <div className='w-80 md:w-340px lg:w-96'>
                                     <ProgressBar
-                                        completed={70}
+                                        completed={40}
                                         bgColor='#db3552'
                                         animateOnRender={true}
                                         height='15px'
-                                    ></ProgressBar>
-                                </div>
-                                <div className='w-80 md:w-340px lg:w-96'>
-                                    <p className='text-white'>Next</p>
-                                    <ProgressBar
-                                        completed={30}
-                                        bgColor='#6639b7'
-                                        animateOnRender={true}
-                                        height='15px'
-
                                     ></ProgressBar>
                                 </div>
                             </div>
@@ -74,7 +60,7 @@ const Skill = () => {
                                 <div className='w-80 md:w-340px lg:w-96'>
                                     <p className='text-white'>Firebase</p>
                                     <ProgressBar
-                                        completed={60}
+                                        completed={40}
                                         bgColor='#00a8e0'
                                         animateOnRender={true}
                                         height='15px'
@@ -94,7 +80,7 @@ const Skill = () => {
                                 <div className='w-80 md:w-340px lg:w-96'>
                                     <p className='text-white'>MySQL</p>
                                     <ProgressBar
-                                        completed={80}
+                                        completed={30}
                                         bgColor='#6639b7'
                                         animateOnRender={true}
                                         height='15px'
@@ -104,7 +90,7 @@ const Skill = () => {
                                 <div className='w-80 md:w-340px lg:w-96'>
                                     <p className='text-white'>CSS</p>
                                     <ProgressBar
-                                        completed={90}
+                                        completed={80}
                                         bgColor='#95ac3a'
                                         animateOnRender={true}
                                         height='15px'
@@ -121,7 +107,7 @@ const Skill = () => {
                                 <div className='w-80 md:w-340px lg:w-96'>
                                     <p className='text-white'>C++</p>
                                     <ProgressBar
-                                        completed={90}
+                                        completed={70}
                                         bgColor='#db3552'
                                         animateOnRender={true}
                                         height='15px'
@@ -131,54 +117,7 @@ const Skill = () => {
                                 <p className='text-white'>C</p>
                                 <div className='w-80 md:w-340px lg:w-96'>
                                     <ProgressBar
-                                        completed={95}
-                                        bgColor='#00a8e0'
-                                        animateOnRender={true}
-                                        height='15px'
-
-                                    ></ProgressBar>
-                                </div>
-                                <p className='text-white'>Java</p>
-                                <div className='w-80 md:w-340px lg:w-96'>
-                                    <ProgressBar
-                                        completed={40}
-                                        bgColor='#6639b7'
-                                        animateOnRender={true}
-                                        height='15px'
-                                    ></ProgressBar>
-                                </div>
-                                <div className='w-80 md:w-340px lg:w-96'>
-                                    <p className='text-white'>Python</p>
-                                    <ProgressBar
-                                        completed={30}
-                                        bgColor='#95ac3a'
-                                        animateOnRender={true}
-                                        height='15px'
-
-                                    ></ProgressBar>
-                                </div>
-                            </div>
-                           
-                         </div>
-                    </TabPanel>
-                    <TabPanel>
-                    <div className='mt-8'>
-                            <div className='space-y-2'>
-                                <div className='w-80 md:w-340px lg:w-96'>
-                                    <p className='text-white'>Machine Learning</p>
-                                    <ProgressBar
-                                        completed={50}
-                                        bgColor='#db3552'
-                                        animateOnRender={true}
-                                        height='15px'
-
-                                    ></ProgressBar>
-                                </div>
-                                
-                                <div className='w-80 md:w-340px lg:w-96'>
-                                <p className='text-white'>React Native </p>
-                                    <ProgressBar
-                                        completed={30}
+                                        completed={80}
                                         bgColor='#00a8e0'
                                         animateOnRender={true}
                                         height='15px'
@@ -186,11 +125,11 @@ const Skill = () => {
                                     ></ProgressBar>
                                 </div>
                                 
-                                
                             </div>
                            
                          </div>
                     </TabPanel>
+                 
                 </Tabs>
             </div>
 
